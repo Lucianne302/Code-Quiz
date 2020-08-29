@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  :root {
+  /* :root {
     --primary: #240324;
     --secondary: #d851c6;
     --tertiary: rgb(104, 78, 98);
@@ -229,5 +229,31 @@
       flex-basis: 100%;
     }
   
+  } */
+  
+  .container{
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
   }
+  
+  .welcome{
+    margin-bottom: 20px;
+  }
+  
+  #main{
+    margin-bottom: 20px;
+    font-size: 100px;
+    width:100%;
+    height: 25px;
+  }
+  
+  #read{
+    margin: auto;
+    padding: 10px;
+    width:100%;
+    height: 25px;
+  }
+
   
