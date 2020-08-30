@@ -7,59 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
+
 </head>
 
 <body>
     <header>
-        <h1 class="page-title">Code Quiz</h1>
-        <p>Click the button below to start the Quiz!</p>
-        <form id="task-form">
-            <!--div class="form-group">
-                <input type="text" name="task-name" class="text-input" placeholder="Enter Task Name" /> 
-            </div>
-            <div class="form-group">
-                <select name="task-type" class="select-dropdown">
-                    <option value="" disabled selected>Pick a task type</option>
-                    <option value="opt1">Opt1</option>
-                    <option value="opt2">Opt2</option>
-                    <option value="opt3">Opt3</option>
-                </select>
-            </div !-->
-            <div class="container">
-                <h1 class="welcome">Are you ready to take the Code Quiz?</h1>
-                <button id="start">Start</button>
-                <h2 id="countdown"></h2>
-                <p id="main"></p>
-              </div>
-            <!--div class="form-group">
-                <button class="btn" id="save-task" type="submit" draggable="true">Start the Quiz!</button>
-            </div !-->
-        </form>
+        <div class="viewscore"> <a href="score.html">View High Scores</a></div>
+        <div>
+            <span class="timer" id="timer"> Time Remaining:</span>
+        </div>
     </header>
-
-    <!--main class="page-content" id="page-content" !-->
-        <!--Task To Do -->
-        <!--section class="task-list-wrapper">
-            <h2 class="list-title">Tasks To Do</h2>
-            <ul class="task-list" id="tasks-to-do"></ul>
+    <main class="quiz" id="quiz">
+        <!---
+        <div class="container">
+            <h1 class="instructions">Code Quiz Challenge</h1>
+            <h2>Try to answer the following code-related questions within the time limit. <br>
+            Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</h2>
+            <button id="startButton">Start Quiz</button>
+            <h2 id="countdown"></h2>
+            <p id="main"></p>
+        </div>
+        <section class="questions" id="questions">
+            <h3 class="question" id="question"></h3>
+            <ol class="choices" id="choices"></ol>
         </section>
-        <!--Task In Progress
-        <section class="task-list-wrapper">
-            <h2 class="list-title">Tasks In Progress</h2>
-            <ul class="task-list" id="tasks-in-progress"></ul>
-        </section>
-        <!--Task Completed 
-        <section class="task-list-wrapper">
-            <h2 class="list-title">Tasks Completed</h2>
-            <ul class="task-list" id="tasks-completed"></ul>
-        </section !-->
-
-    <!--/main !--> 
-
-    <!--footer>
-        &copy;2020 by Taskinator
-    </footer>
-    <script src="./assets/js/script.js"></script !-->
+            --->
+    </main>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
