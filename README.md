@@ -2,10 +2,15 @@
 
 Project name: Code Quiz
 
-Description/Usage: This applciation will allow a user to take a timed test and record their scores.
+Description/Usage: This applciation will allow a user to take a timed test and record their scores
 
 Notes:
+created a start function
+created a function to get questions
+created a function to save scores
+created a sort function for high scores
 
+Sites used for Knowledge:
 stored/retrieved variables in session variables:
 https://stackoverflow.com/questions/6918314/using-javascript-can-you-get-the-value-from-a-session-attribute-set-by-servlet-i
 
