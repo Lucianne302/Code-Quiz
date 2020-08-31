@@ -7,32 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
-
 </head>
 
 <body>
     <header>
-        <div class="viewscore"> <a href="score.html">View High Scores</a></div>
         <div>
-            <span class="timer" id="timer"> Time Remaining:</span>
+            <div id="viewscore" class="viewscore"> <a href="score.html">View High Scores</a></div>
+            <div id="myTimer" class="myTimer">
+                <span class="timer" id="timer">Time Remaining: </span><span class="countdown" id="countdown"></span>
+            </div>
         </div>
     </header>
-    <main class="quiz" id="quiz">
-        <!---
-        <div class="container">
-            <h1 class="instructions">Code Quiz Challenge</h1>
-            <h2>Try to answer the following code-related questions within the time limit. <br>
-            Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</h2>
-            <button id="startButton">Start Quiz</button>
-            <h2 id="countdown"></h2>
-            <p id="main"></p>
-        </div>
-        <section class="questions" id="questions">
-            <h3 class="question" id="question"></h3>
-            <ol class="choices" id="choices"></ol>
-        </section>
-            --->
-    </main>
+    <br><br>
+    <main class="quiz" id="quiz"></main>
+    <script src="./js/score.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
